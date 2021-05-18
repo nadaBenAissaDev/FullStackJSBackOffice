@@ -1,0 +1,43 @@
+[
+    {
+        "question": "In my work environment, it is most important to me...",
+        "optionA": "To help co-workers and to be in a peaceful environment",
+        "optionB": "To feel that my co-workers admire me and to be free from rigid rules.",
+        "optionC": "o know exactly what is expected of me and to finish one task before moving to another.",
+        "optionD": "To get things done and to see results.",
+        "answer": "To get things done and to see results."
+    }, 
+    {
+        "question": "When someone offers an opinion or conclusion and I disagree, I am most likely to...",
+        "optionA": "Tell them that I disagree.",
+        "optionB": "Say something humorous.",
+        "optionC": "Ask for more information.",
+        "optionD": "Nod and say nothing.",
+        "answer": "Nod and say nothing."
+    }, 
+    {
+        "question": "When I am working on a team and we encounter a difficulty of some kind, I am most likely to say...",
+        "optionA": "Lighten up! Just go with the flow!",
+        "optionB": "To get things done and to see results.",
+        "optionC": "o know exactly what is expected of me and to finish one task before moving to another.",
+        "optionD": "Let's make a decision!",
+        "answer": "Lighten up! Just go with the flow!"
+    }, 
+    {
+        "question": "How do you feel ?",
+        "optionA": "Focused",
+        "optionB": "Happy",
+        "optionC": "Blessed",
+        "optionD": "Neutral",
+        "answer": "Ask for more information."
+    }, 
+    {
+        "question": "I love colors that are ..",
+        "optionA": "Dark",
+        "optionB": "Light",
+        "optionC": "Flashy",
+        "optionD": "I love them all !!",
+        "answer": "I love them all !!"
+    }
+
+]
