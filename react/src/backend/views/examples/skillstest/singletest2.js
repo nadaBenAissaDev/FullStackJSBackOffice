@@ -72,7 +72,7 @@ function SingleTest2({ test, history, index, /*token*/ url}) {
 const handleClick2 =()=>{
   
 
-    axios.put(API_BASE_URL + '/api/test/unarchive/${test._id}`)
+    axios.put(API_BASE_URL + `/api/test/unarchive/${test._id}`)
     .then((response) => {
       console.log(response.data);
       alert("Successfully unarchived Test");

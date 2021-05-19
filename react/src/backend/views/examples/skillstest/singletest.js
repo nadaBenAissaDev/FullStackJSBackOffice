@@ -1,26 +1,3 @@
-// import React from "react";
-// import { Button } from "reactstrap";
-
-// function SingleTest({ test, history, index, /*token*/ url }) {
-//   const date = test.validity;
-
-//   const handleClick = () => {
-//     history.push(`/admin/result/${test._id}`);
-//    // history.push(`/admin/updatequestion/${JSON.stringify(question._id)}`);
-//   };
-//   return (
-//     <div className="Single-Test">
-//       <h2>Test {index}-: </h2>
-//       <h3>Valid Till: {date.slice(0, 10) + " " + date.slice(11, 16)}</h3>
-//       <h3>Total Questions: {test.numberOfQuestions}</h3>
-//       <h3>Test pin: {test.pin}</h3>
-//       <Button onClick={handleClick}>See results of candidates</Button>
-//     </div>
-//   );
-
-
-// }
-
 // export default SingleTest;
 import {API_BASE_URL} from 'actions/types'
 import React,{useState} from "react";
@@ -56,7 +33,7 @@ function SingleTest({ test, history, index, /*token*/ url}) {
   };
 
      const handledeletep =() =>{
-       axios.delete(API_BASE_URL + '/api/test/${test._id}`)
+       axios.delete(API_BASE_URL + `/api/test/${test._id}`)
        .then((response) => {
         //console.log(response.data);
       
@@ -71,7 +48,7 @@ function SingleTest({ test, history, index, /*token*/ url}) {
   
 const handleClick2 =()=>{
   
-   axios.put(API_BASE_URL + '/api/test/archive/${test._id}`)
+   axios.put(API_BASE_URL + `/api/test/archive/${test._id}`)
    .then((response) => {
      //console.log(response.data);
      alert("Successfully archived Test");

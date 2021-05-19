@@ -27,7 +27,6 @@ InputGroup,
   Row,
   Col,
 } from "reactstrap";
-import { API_BASE_URL } from "actions/types";
 
 
 function CreateTest({ /*token,*/ history, match: { url } }) {

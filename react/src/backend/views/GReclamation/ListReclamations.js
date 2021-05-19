@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import Pagination from './pagination.js';
 import axios from 'axios';
 import '../../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import {API_BASE_URL} from 'actions/actions'
+import {API_BASE_URL} from 'actions/types'
 //import CallModal from "./CallModal.js";
 
 
